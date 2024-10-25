@@ -37,18 +37,11 @@
 
 - `python 3.8+`
 - `requests`
-- `docx`
+- `python-docx`
 - `BeautifulSoup`
-- `GoogleTranslator`
+- `deep_translator`
 - `langchain_community` и `langchain_core`
-
-### Установка зависимостей
-
-Установите все зависимости с помощью команды:
-```bash
-pip install -r requirements.txt
-```
-
+- `gigachat`
 
 
 ### Запуск ассистента
@@ -63,13 +56,15 @@ cd <имя_папки_репозитория>
 
 Запустите ассистента:
 
-bash
+cmd
 ```
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 ```
+**Всегда активируйте среду venv когда работаете с ассистентом**
+
 
 ## Технологии и подходы
 1. **Поиск информации**
