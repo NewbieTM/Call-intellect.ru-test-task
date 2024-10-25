@@ -65,7 +65,10 @@ cd <имя_папки_репозитория>
 
 bash
 ```
-python Test_task.py
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
 ```
 
 ## Технологии и подходы
